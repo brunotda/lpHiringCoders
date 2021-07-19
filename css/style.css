@@ -1,0 +1,137 @@
+*,
+html {
+    margin     : 0 0 0 0;
+    padding    : 0 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.fullH {
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bg-light {
+    background-color   : #000;
+    background-image   : url("../assets/blHiring.jpg");
+    background-repeat  : no-repeat;
+    background-position: center right;
+    background-size    : 100vh;
+}
+
+.color-txt-yellow {
+    color: #fecf6d;
+}
+
+.centerGrid {
+    margin: 0 auto;
+}
+
+.col-6 {
+    width : calc(100%/2);
+    height: 50vh;
+}
+
+.topContent {
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.bottomContent {
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+}
+
+.alert {
+    border       : 1px solid transparent;
+    position     : relative;
+    padding      : .50rem 1rem;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.msgSuccess {
+    border-color    : #2d884d;
+    background-color: #2d884d7e;
+}
+
+.msgWarning {
+    border-color    : #fecf6d;
+    background-color: #fed06d81;
+}
+
+.msgDanger {
+    border-color    : #b34045;
+    background-color: #b3404680;
+}
+
+h1 {
+    font-size    : 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size    : 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#bfHiring {
+    display       : flex;
+    flex-direction: column;
+    width         : 400px;
+    margin        : 0 auto;
+}
+
+.btn {
+    color           : #000;
+    background-color: #ffc107;
+    border-color    : #ffc107;
+    margin          : .25rem .125rem;
+    display         : inline-block;
+    font-weight     : 400;
+    line-height     : 1.5;
+    text-align      : center;
+    text-decoration : none;
+    vertical-align  : middle;
+    border          : 1px solid transparent;
+    padding         : .375rem .75rem;
+    font-size       : 1rem;
+    border-radius   : .25rem;
+    transition      : color .15s
+}
+
+.btn:hover {
+    color           : #000;
+    background-color: #ffca2c;
+    border-color    : #ffc720;
+}
+
+footer {
+    background: #d99100;
+    color     : #444;
+}
+
+footer a {
+    color: #444;
+}
+
+@media only screen and (max-width: 40rem) {
+    .col-6 {
+        width: 100%;
+    }
+}
