@@ -2,7 +2,7 @@
 - Hiring Coders
 - Gama Academy
 
-[url](url)
+[https://thirsty-darwin-5ab12d.netlify.app](https://thirsty-darwin-5ab12d.netlify.app)
 
  ### TECNOLOGIA
  ![github](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
